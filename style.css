@@ -106,12 +106,18 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #b2000b;
   
 }
+
+.boton:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover {
+    color: #000000;
+}
+
 
 .btn-section {
     display: flex;
     justify-content: space-around;
     grid-column: 1/-1;
 }
+

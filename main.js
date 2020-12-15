@@ -20,9 +20,9 @@ document.querySelector('.boton3').addEventListener('click', () => {
 });
 
 document.querySelector('.boton4').addEventListener('click', () => {
-    document.querySelector('.footer2').style.backgroundColor = 'black'
+    document.querySelector('.footer2').style.color = 'black'
 });
 
 document.querySelector('.boton5').addEventListener('click', () => {
-    document.querySelector('.footer2').style.backgroundColor = 'inherit'
+    document.querySelector('.footer2').style.color = 'inherit'
 });
