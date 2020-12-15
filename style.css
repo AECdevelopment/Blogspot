@@ -133,6 +133,18 @@ body {
 }
 
 /*Media query*/
+
+
+@media screen and (min-width: 1900px) {
+    body {
+        background-color: red;
+    }
+    .presentacion img {
+        width: 70%;
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     body {
         background-color: darkblue;
@@ -148,7 +160,5 @@ body {
     .presentacion p {
     text-align: inherit;
     }
-
-
 
 }
