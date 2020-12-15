@@ -5,6 +5,7 @@ ScrollReveal().reveal('.lateral', { delay: 200 });
 ScrollReveal().reveal('.footer', { delay: 200 });
 ScrollReveal().reveal('.presentacion', { delay: 200 });
 ScrollReveal().reveal('.footer2', { delay: 200 });
+ScrollReveal().reveal('.btn-section', { delay: 200 });
 
 document.querySelector('.boton').addEventListener('click', () => {
     document.querySelector(".footer2").innerHTML = "<h2>Pie de pagina</h2>";
