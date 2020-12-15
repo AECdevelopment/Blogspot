@@ -75,6 +75,8 @@ body {
     grid-column: 1/-1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border: solid 1px #ffffff;
+    border-radius: 5px;
 }
 
 .presentacion img {
@@ -114,10 +116,18 @@ body {
     color: #000000;
 }
 
-
 .btn-section {
     display: flex;
     justify-content: space-around;
     grid-column: 1/-1;
 }
 
+.cochinada {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.not-senpai {
+    grid-column: 5;
+}
